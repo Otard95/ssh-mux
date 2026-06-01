@@ -26,7 +26,7 @@ go install github.com/Otard95/ssh-mux@latest
 nix run github:Otard95/ssh-mux -- up git@github.com
 
 # install to profile
-nix profile install github:Otard95/ssh-mux
+nix profile add github:Otard95/ssh-mux
 
 # build locally
 nix build
