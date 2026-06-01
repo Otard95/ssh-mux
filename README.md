@@ -109,3 +109,9 @@ automatically multiplex through it — no per-tool integration needed.
 SSH servers limit multiplexed sessions via `MaxSessions` (default: 10).
 Callers doing parallel work should stay below this threshold. `ssh-mux` does
 not enforce concurrency limits.
+
+## AI coding agent skill
+
+A [pi coding agent](https://github.com/anthropics/pi) skill is included in
+[`pi-skill/`](pi-skill/). Copy it to `~/.config/pi/skills/ssh-mux/` to
+teach your agent about ssh-mux.
